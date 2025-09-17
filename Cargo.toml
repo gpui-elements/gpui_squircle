@@ -1,0 +1,16 @@
+[package]
+name = "gpui_squircle"
+version = "0.1.0"
+authors = [ "cameronpcampbell" ]
+edition = "2024"
+description = "squircle component for gpui."
+license = "MIT"
+homepage = "https://github.com/gpui-elements/gpui-squircle"
+
+[dependencies]
+gpui = { git = "https://github.com/zed-industries/zed" }
+gpui_macros = { git = "https://github.com/zed-industries/zed" }
+#figma_squircle = { path = "../figma_squircle" }
+figma_squircle = "0.1.0"
+lyon = { version = "1.0.16", features = [ "extra" ] }
+anyhow = "1.0.99"
