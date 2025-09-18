@@ -6,8 +6,11 @@
 
 ## Installation
 
+gpui is still in development so you need to add the dependencies via git.
+
 ```sh
-gpui_squircle = "0.1.0"
+gpui = { git = "https://github.com/zed-industries/zed.git" }
+gpui_squircle = { git = "https://github.com/gpui-elements/gpui_squircle.git" }
 ```
 
 ## Usage
