@@ -26,7 +26,7 @@ fn squircle_div() -> impl gpui::IntoElement {
 
         .child(
             // To use a squircle simply parent it to an element.
-            // It automatically fills the entire parent's size
+            // It automatically fills the parent's entire size
             // whilst also ignoring padding. 
             squircle()
                 .rounded(px(50.))
